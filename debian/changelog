@@ -1,5 +1,53 @@
-template-repository (1.0-1) unstable; urgency=medium
+libstream-buffered-perl (0.03-3) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + libstream-buffered-perl: Add Multi-Arch: foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 22 Oct 2022 00:54:11 +0100
+
+libstream-buffered-perl (0.03-2) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * debian/*: update URLs from {search,www}.cpan.org to MetaCPAN.
+  * debian/watch: use uscan version 4.
+
+  [ Debian Janitor ]
+  * Bump debhelper from deprecated 8 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 17 Jun 2022 10:46:44 +0100
+
+libstream-buffered-perl (0.03-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Fri, 01 Jan 2021 18:18:50 +0100
+
+libstream-buffered-perl (0.03-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * debian/copyright: drop information about removed inc/Module/*.
+  * Use canonical URL for Vcs-Git in debian/control.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 07 Jun 2014 13:52:14 +0200
+
+libstream-buffered-perl (0.2-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #709426)
+
+ -- Florian Schlichting <fsfs@debian.org>  Thu, 23 May 2013 12:03:04 +0200
